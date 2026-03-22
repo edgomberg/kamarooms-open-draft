@@ -13,14 +13,19 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" hreflang="ru" href="https://open.kamarooms.com/updates.html">
 <link rel="alternate" hreflang="x-default" href="https://open.kamarooms.com/">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/favicon.ico">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
 <style>
+  /* Stolzl — Kamarooms brand font (from kamarooms.com Tilda CDN) */
+  @font-face { font-family: 'Stolzl'; src: url('https://static.tildacdn.com/tild6561-3431-4337-b366-313134633462/Stolzl-Thin.woff') format('woff'); font-weight: 100; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'Stolzl'; src: url('https://static.tildacdn.com/tild6561-6337-4461-b933-303864333239/Stolzl-Light.woff') format('woff'); font-weight: 300; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'Stolzl'; src: url('https://static.tildacdn.com/tild3461-6461-4435-a464-626338343365/Stolzl-Regular.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'Stolzl'; src: url('https://static.tildacdn.com/tild3531-3636-4136-b336-326137663366/Stolzl-Medium.woff') format('woff'); font-weight: 500; font-style: normal; font-display: swap; }
+  @font-face { font-family: 'Stolzl'; src: url('https://static.tildacdn.com/tild3334-6234-4266-b234-333036306634/Stolzl-Bold.woff') format('woff'); font-weight: 700; font-style: normal; font-display: swap; }
+
   /*
    * Design system: Kamarooms /Open
-   * Palette sourced from kamarooms.com branding
+   * Palette + font sourced from kamarooms.com
    * Voice: Buffer structure + Honest Greens warmth + dBrand edge (7/10)
    */
   :root {
@@ -54,7 +59,7 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
-    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'Stolzl', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
